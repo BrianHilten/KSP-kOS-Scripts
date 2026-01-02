@@ -16,7 +16,8 @@ Current State:\
 -KLS and KLS Heavy will autonomously put your payload into LKO at approximately 100,000 km. It will automatically stage, maintain attitude control during ascent, and deploy fairings once safely above the atmosphere.\
 Planned Features:\
 -I would like to create more scripts to allow the user to specify what altitude they want the final orbit to reach, potentially rolling them all into one. Idk if kOS can even collect input though.\
--The ascent system works pretty well, but it isn't super elegant. I am toying around with using orbital eccentricity to optimize ascents. The program would use a hill climbing algorithm, inspired by CheersKevin's tutorials.
+-The ascent system works pretty well, but it isn't super elegant. I am toying around with using orbital eccentricity to optimize ascents. The program would use a hill climbing algorithm, inspired by CheersKevin's tutorials.\
+-Reusable Kerbal Launch System! Are you on a budget? The reusable KLS variant will put your payload into a ~100km x 100km orbit, automatically detach, then return back to the Kerbal Space Center for retrieval, refurbishment, and reuse. Status: Basic rocket design and deorbit methodology complete, program implementation is WIP. Largest obstacles include landing PID control system for such a large booster, and calculating proper trajectories. I would like to not use any external mods (Trajectories) and do the calculations myself, but calculating impact positions is no joke, expecially in atmosphere, and I'm not that great at math...
 
 ------------------------
 ## VACUUM DELIVERY SYSTEM:
